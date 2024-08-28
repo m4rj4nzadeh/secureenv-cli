@@ -1,0 +1,28 @@
+{
+  "name": "secureenv-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for secure management of environment variables, providing encryption, decryption, and variable management features to ensure sensitive data protection.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "secureenv-cli": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "security",
+    "encryption",
+    "environment variables",
+    "devops",
+    "secure"
+  ],
+  "author": "Marjan Khodadadzadeh",
+  "license": "MIT",
+
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
